@@ -12,7 +12,7 @@ body {
 
 /* Element Level Styling */
 h1, h2, h3, h4, p {
-    margin: 10px 0px;
+    margin: 5px 0;
 }
 
 h1 {
@@ -28,16 +28,20 @@ h3 {
 }
 
 /* Class Level Styling */
-.section-container {
+.header-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
+    margin: 10px 0px;
     width: 100%;
 }
 
-.primary-image {
+.event-card {
+    margin: 15px 0px;
+}
+
+.event-card-img {
     width: 100%;
     max-width: fit-content;
     margin: 10px 0px;
@@ -78,4 +82,38 @@ nav ul li a {
 nav ul li a:hover {
     color: #6F5E5C;
     background-color: white;
+}
+
+/* Header Section Styling */
+.header-title-text {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Events Info Card Styling */
+#event-container,
+.event-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-card-text {
+    margin-bottom: 10px;
+}
+
+.event-buy-link {
+    background-color: white;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.event-buy-link a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
