@@ -1,0 +1,103 @@
+/* Global Styling */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.1;
+    text-align: center;
+}
+
+body {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+/* Element Level Styling */
+h1, h2, h3 {
+    margin: 10px 0px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 30px;
+    padding: 10px 30px; /* Unique to menu.html */
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+h4 {
+    margin: 30px 0 0 0;
+}
+
+/* Navbar Global Styling */
+nav {
+    width: 100%;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: #6F5E5C;
+    background-color: white;
+}
+
+/* Header Section Global Styling */
+#header-description {
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+/* Section Container Styling */
+.section-container,
+#ahl-container,
+#map-directions-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.ahl-section {
+    margin: 30px auto;
+    width: 90%;
+}
+
+.link-button {
+    background-color: darkblue;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    padding: 15px;
+}
