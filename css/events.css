@@ -118,3 +118,31 @@ nav ul li a:hover {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+/* Media Queries */
+/* == Tablet Optimized: 301px - 768px == */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/* == Desktop+ Optimized: 1068px+ == */
+@media (min-width: 1068px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    #event-container {
+        flex-direction: row;
+    }
+
+    .event-card {
+        width: 400px;
+        margin: 20px;
+        padding: 10px;
+    }
+
+}

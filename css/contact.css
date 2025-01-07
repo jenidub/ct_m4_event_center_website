@@ -101,7 +101,7 @@ nav ul li a:hover {
 
 .form-section input {
     height: 30px;
-    width: 100%;
+    width: 50%;
 }
 
 .form-section input::placeholder,
@@ -120,6 +120,24 @@ textarea::placeholder {
 button {
     margin: 10px 0px;
     width: 100%;
+    max-width: 300px;
     height: 30px;
     font-size: 20px;
+}
+
+/* Media Queries */
+/* == Tablet Optimized: 301px - 768px == */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/* == Desktop+ Optimized: 1068px+ == */
+@media (min-width: 1068px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 }

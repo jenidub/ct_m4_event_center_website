@@ -103,3 +103,20 @@ th, td {
     height: 50px;
     width: 100%;
 }
+
+/* Media Queries */
+/* == Tablet Optimized: 301px - 768px == */
+@media (min-width: 768px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
+/* == Desktop+ Optimized: 1068px+ == */
+@media (min-width: 1068px) {
+    nav ul {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
