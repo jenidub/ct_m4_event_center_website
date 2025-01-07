@@ -11,10 +11,6 @@ This repository contains the source code for the Musical Festival Performing Art
 
 -   [About the Website](#about-the-website)
 -   [Pages Overview](#pages-overview)
--   [Getting Started](#getting-started)
--   [Usage](#usage)
--   [Contributing](#contributing)
--   [License](#license)
 
 ## About the Website
 
