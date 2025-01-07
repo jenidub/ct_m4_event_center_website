@@ -96,7 +96,18 @@ table {
 th, td {
     text-align: left;
     padding: 5px;
-    font-size: 14px;
+    font-size: 18px;
+}
+
+tr:hover,
+tr:focus {
+    background-color: white;
+    color: purple;
+    font-weight: bold;
+}
+
+td:hover {
+    font-size: 1.5em;
 }
 
 #bottom-spacer {

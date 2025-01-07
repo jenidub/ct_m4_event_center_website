@@ -42,14 +42,14 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10px auto;
+    margin: 20px auto;
     width: 95%;
 }
 
 .primary-image {
     width: 100%;
     max-width: fit-content;
-    margin: 0px;
+    margin: 20px auto;
 }
 
 .section-header {
@@ -89,7 +89,7 @@ nav ul li a:hover {
     background-color: white;
 }
 
-/* Header Section Image Gallery */
+/* Header Section */
 #header-gallery {
     display: flex;
     justify-content: space-evenly;
@@ -105,6 +105,8 @@ nav ul li a:hover {
     text-align: center;
     margin: 20px 0;
 }
+
+/* Welcome Section Styling */
 
 /* Event Card Section Styling */
 .featured-card {

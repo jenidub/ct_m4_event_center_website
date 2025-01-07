@@ -11,14 +11,14 @@ body {
 }
 
 /* Element Level Styling */
-h1, h2, h3 {
+h1, h2, h3, h4, p {
     margin: 10px 0px;
 }
 
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin: 5px 0;
+    /* margin: 5px 0; */
     font-size: 30px;
     padding: 10px 30px; /* Unique to menu.html */
 }
@@ -30,22 +30,23 @@ h2 {
 h3 {
     font-size: 20px;
     text-decoration: underline;
-    margin: 20px 0px;
+    /* margin: 0px; */
 }
 
 h4 {
     font-size: 20px;
-    margin: 30px 0 0 0;
+    /* margin: 0px; */
 }
 
 p {
     font-size: 20px;
+    /* margin: 0px; */
 }
 
 /* Navbar Global Styling */
 nav {
     width: 100%;
-    margin: 0;
+    margin: 0px;
 }
 
 nav ul {
@@ -94,8 +95,16 @@ nav ul li a:hover {
     margin: 10px 0;
 }
 
+#ahl-container {
+    height: fit-content;
+}
+
 .ahl-section {
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px auto;
     width: 90%;
 }
 
@@ -108,17 +117,16 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-#email-button {
-    margin: 5px auto 20px auto;
-
+#email-button{
+    margin: 5px 0px 0px 0px;
 }
 
-#directions-button {
-    margin: 0px auto 20px auto;
+#directions-button-top {
+    margin: 0;
 }
 
 iframe {
-    margin: 0 0 20px 0;
+    margin: 20px 0;
 }
 
 /* Media Queries */
@@ -128,7 +136,26 @@ iframe {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    #ahl-container {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #map-directions-container {
+        margin: 20px auto;
+    }
+
+    #directions-button-top {
+        display: none;
+    }
+
+    #directions-button-bottom {
+        display: block;
+    }
 }
+
+
 
 /* == Desktop+ Optimized: 1068px+ == */
 @media (min-width: 1068px) {

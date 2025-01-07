@@ -107,6 +107,7 @@ nav ul li a:hover {
 
 .event-buy-link {
     background-color: white;
+    transition: background-color 0.3s ease;
     color: black;
     width: fit-content;
     height: fit-content;
@@ -114,7 +115,34 @@ nav ul li a:hover {
     padding: 10px;
 }
 
+#wicked-buy-link:focus,
+#colorpurple-buy-link:focus,
+#mormon-buy-link:focus {
+    width: 300px;
+}
+
+#wicked-buy-link:hover {
+    background-color: darkgreen;
+}
+
+#colorpurple-buy-link:hover {
+    background-color: #59126A;
+}
+
+#mormon-buy-link:hover {
+    background-color: black;
+}
+
+#wicked-buy-link a:hover,
+#colorpurple-buy-link a:hover,
+#mormon-buy-link a:hover {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
 .event-buy-link a {
+    color: black;
     text-decoration: none;
     text-transform: uppercase;
 }

@@ -101,7 +101,12 @@ nav ul li a:hover {
 
 .form-section input {
     height: 30px;
-    width: 50%;
+    width: 90%;
+}
+
+textarea {
+    width: 90%;
+    height: 300px;
 }
 
 .form-section input::placeholder,
@@ -132,6 +137,12 @@ button {
         flex-direction: row;
         justify-content: space-evenly;
     }
+
+    .form-section input {
+        height: 30px;
+        width: 90%;
+        max-width: 700px;
+    }
 }
 
 /* == Desktop+ Optimized: 1068px+ == */
@@ -139,5 +150,9 @@ button {
     nav ul {
         flex-direction: row;
         justify-content: space-evenly;
+    }
+
+    textarea {
+        max-width: 700px;
     }
 }
