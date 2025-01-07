@@ -65,12 +65,14 @@ nav ul li a:hover {
 }
 
 /* Header Section Global Styling */
+.header-container,
 .section-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin: 10px 0px;
 }
 
 #header-description {
@@ -86,6 +88,8 @@ nav ul li a:hover {
 }
 
 table {
+    width: 90%;
+    margin: 0 auto;
     border: 1px solid white;
 }
 

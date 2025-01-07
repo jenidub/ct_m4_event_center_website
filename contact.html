@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Musical Festival Location Info</title>
+        <link rel="stylesheet" href="./css/contact.css">
+    </head>
+
+    <body>
+        <!-- Start of Navbar - All Website Pages -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <!-- End of Navbar -->
+        <!-- Start of Header Section - All Website Pages-->
+        <header class="contact-container header-container">
+            <img class="primary-image title-image" src="https://placehold.co/350" alt="">
+            <div id="header-title">
+                <h1 class="header-title-text">The Musical Festival Contact Us Page</h1>
+                <h2>Submit your questions and comments using the form below</h2>
+            </div>
+        </header>
+        <!-- End of Header Section -->
+        <form id="form-container" type="Submit" href="#">
+            <!-- TODO: Bonus: Add sample data to simulate submissions. -->
+            <div class="form-section">
+                <label for="name">Name <span><i> (*) Required</i></span></label>
+                <input id="name" type="text" name="user-name" placeholder="Ex: Jeni Williams" required>
+            </div>
+            <div class="form-section">
+                <label for="email">Email <span><i> (*) Required</i></span></label>
+                <input id="email" type="email" name="user-email" placeholder="Ex: info@mail.com" required>
+            </div>
+            <div class="form-section" id="message-section">
+                <label for="message">Message <span><i> (*) Required</i></span></label>
+                <textarea id="message" name="message" cols="63" rows="10" placeholder="Ex: I would like to know if ther eare tickets remaining on the aisle for the Wicked show on January 10th at 7pm" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </body>
+</html>

@@ -24,23 +24,32 @@ h2 {
 }
 
 h3 {
+    font-size: 22px;
+}
+
+h4 {
     font-size: 20px;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* Class Level Styling */
-.section-container {
+.section-container,
+#featured-card-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 20px 0px;
-    width: 100%;
+    margin: 10px auto;
+    width: 95%;
 }
 
 .primary-image {
     width: 100%;
     max-width: fit-content;
-    margin: 10px 0px;
+    margin: 0px;
 }
 
 .section-header {
@@ -94,5 +103,11 @@ nav ul li a:hover {
 #header-title-text {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    margin: 10px 0;
+    margin: 20px 0;
+}
+
+/* Event Card Section Styling */
+.featured-card {
+    margin: 10px 0px;
+    width: 100%;
 }
