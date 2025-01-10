@@ -1,79 +1,12 @@
-/* Global Styling */
-* {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    line-height: 1.1;
-    text-align: center;
-}
-
-body {
-    background-color: cornflowerblue;
-    color: white;
-}
-
 /* Element Level Styling */
-h1, h2, h3, h4, p {
-    margin: 10px 0px;
-}
-
 h1 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    /* margin: 5px 0; */
-    font-size: 30px;
     padding: 10px 30px; /* Unique to menu.html */
 }
 
-h2 {
-    font-size: 24px;
-}
-
 h3 {
-    font-size: 20px;
     text-decoration: underline;
-    /* margin: 0px; */
-}
-
-h4 {
-    font-size: 20px;
-    /* margin: 0px; */
-}
-
-p {
-    font-size: 20px;
-    /* margin: 0px; */
-}
-
-/* Navbar Global Styling */
-nav {
-    width: 100%;
-    margin: 0px;
-}
-
-nav ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0;
-    padding: 0;
-}
-
-nav ul li {
-    margin: 5px 0;
-    list-style-type: none;
-}
-
-nav ul li a {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    color: #6F5E5C;
-    background-color: white;
 }
 
 /* Header Section Global Styling */
@@ -152,15 +85,5 @@ iframe {
 
     #directions-button-bottom {
         display: block;
-    }
-}
-
-
-
-/* == Desktop+ Optimized: 1068px+ == */
-@media (min-width: 1068px) {
-    nav ul {
-        flex-direction: row;
-        justify-content: space-evenly;
     }
 }
